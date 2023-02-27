@@ -8,6 +8,7 @@ export default function Icone({ nome, cor, style }) {
 
   return <View style={[estilos.fundo, style]}>
     <FontAwesome5 name={nome || "question"} size={48} color='#ffffff' />
+    
   </View>
 }
 
